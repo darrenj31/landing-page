@@ -1,0 +1,41 @@
+body{
+    margin: 0 48px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.tier1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.header, .tier1 {
+    background-color: darkblue;
+    color: white;
+}
